@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" charset="utf-8" src="js/coinsGameLogic.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery-1.8.2.min.js"></script>
+		<link rel="stylesheet" href="style/style.css" />
+	</head>
+	<body>
+		<div id="gameBoard">
+			<div id="controls">
+				<table>
+					<tr>
+						<td>
+							<input type="button" id="btn1" onclick="createGrid();" value="New Game"></input>
+						</td>
+						<td>
+							<table>
+								<tr>
+									<td style="background-color:red">Player 1</td>
+									<td style="background-color:#FFFF00">Player 2</td>
+								</tr>
+							</table>
+						</td>
+						<td>
+							<label id="turnInfo">Player1's Turn</label>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="grid">
+			</div>
+		</div>
+	</body>
+</html>
+	
