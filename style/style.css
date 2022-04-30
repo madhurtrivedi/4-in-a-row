@@ -1,0 +1,18 @@
+.cellStyle
+{
+    border-style:solid;
+    border-width:1px;
+    border-color: antiquewhite;
+	width: 45px;
+	height: 45px;
+    border-radius: 15px;
+}
+
+.tblStyle
+{
+	background-color:Black;
+	border-style:solid;
+    border-width:2px;
+    border-color:Black;
+    border-radius: 5px;
+}
